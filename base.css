@@ -1,0 +1,214 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+html,
+body {
+    font-family: 'Bellota Text', cursive;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #adadeb;
+}
+
+.button {
+    border: 1px solid #707070;
+    background-color: #555555;
+    color: #ffffff;
+    height: 27px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bellota Text', cursive;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.divbgbd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 100%;
+    padding: 0px, 30px, 0px;
+    background-color: #5c5cd6;
+}
+
+.divbg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 700px;
+    height: 100%;
+    padding: 0px;
+    background-color: #5c5cd6;
+}
+
+.regform {
+    display: flex;
+    flex-direction: column;
+    background-color: #d6d6f5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.regform a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.regform a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.regform a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.regform a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hehe {
+    text-align: center;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+table {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #d6d6f5;
+}
+
+tr:nth-child(even) {
+    background-color: #ebebfa;
+}
+
+th {
+    background-color: #555;
+    color: #fff;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+td a {
+    border: 1px solid #707070;
+    background-color: #555555;
+    color: #ffffff;
+    height: 27px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bellota Text', cursive;
+    font-size: medium;
+    font-weight: 600;
+    padding: 2px 10px;
+}
+
+td::before {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    table {
+        border: 0;
+        display: block;
+        box-shadow: none;
+    }
+    thead {
+        position: absolute;
+        opacity: 0;
+    }
+    tbody {
+        display: block;
+        min-width: 19em;
+        max-width: 25em;
+    }
+    tr {
+        border-top: 2px solid #3c3c3b;
+        border-bottom: 2px solid #3c3c3b;
+        display: block;
+        margin-bottom: 1em;
+    }
+    td {
+        border-bottom: 1px solid #3c3c3b;
+        display: flex;
+    }
+    td::before {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: auto;
+        padding-right: 1em;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 690px;
+}
+
+h2 {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #d6d6f5;
+    filter: blur(0.3px);
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+}
